@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" ,initial-scale="1.0">
+    <title>Sing in & Sing up form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+   
+    <main>
+        <div class="box">
+            <div class="inner-box">
+                <div class="forms-wrap">
+                    <form action="index.html" autocomplete ="off" class="sign-in-form" >
+                     <div class="logo">
+                        <img src="istockphoto-1153797545-612x612.jpg" alt="easyclass">
+                        <h3>easyclass</h3>
+                     </div>  
+                         
+                     <div class="heading">
+                        <h2>Welcome Back</h2>
+                        <h6>Not registred Yet?</h6>
+                        <a href="./sign-up.html" class="toggle">Sing up</a>
+                     </div>               
+
+                     <div class="actual-form">
+
+                        <div class="input-wrap">
+                            <input
+                                type="text" 
+                                minlength="4"
+                                class="input-field"
+                                autocomplete="off"
+                                id="name"
+                                required
+                            />
+                            <label for="name">Name</label>
+                        </div>
+
+                        <div class="input-wrap">
+                            <input
+                            type="password" 
+                            minlength="4"
+                            class="input-field"
+                            autocomplete="off"
+                            id="pass"
+                            required/>
+                            <label for="pass">Password</label>
+
+                        </div>
+                        
+                        <input type="submit" Value="Sign In" class="sign-btn"> 
+
+                        <p class="text">
+                            Forget ur password or ur login details?
+                            <a href="#" >Get help </a>
+                        </p>
+                     </div>
+                    </form>
+                </div>
+                <div class="carousel"></div>
+
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>        
+    </body>
+
+</html>
